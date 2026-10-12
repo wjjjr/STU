@@ -1,0 +1,14 @@
+# STU - Sparse Tensor Attention for Hyperspectral Unmixing
+# Python 3.11
+#
+# Install PyTorch first with the CUDA build matching your driver, e.g.:
+#   pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+
+torch==2.5.1
+tltorch==0.5.0
+sparsemax==0.1.9
+scipy>=1.11
+numpy>=1.26
+tqdm>=4.66
+matplotlib>=3.7
+seaborn>=0.12
